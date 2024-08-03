@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <style>
+    .container{
+        margin: 2%;
+        background-image:url(image/blue.webp);
+        background-attachment: fixed;
+        background-position: center;
+        padding: 2%;
+        width: 90%;
+        height: 500%;
+        border-radius:100px ;
+        color: rgb(18, 15, 13);
+        z-index: 3;
+    }
+    nav {
+            display: flex;
+            justify-content: center;
+            background-color: #230b7c;
+            color: gray;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #207dc0;
+            color: black;
+        }
+        .services, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service, .testimonial {
+            border: 1px solid #ccc;
+            margin: 1em;
+            padding: 1em;
+            width: 30%;
+            background-color: rgb(191, 237, 237);
+        }
+        
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="project.html">Home</a>
+        <a href="./">Services</a>
+        <a href="about.html">About </a>
+        <a href="Contactt.html">Contact </a>
+        <a href="feedback.html">Reviews</a>
+    </nav> 
+    <div id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Resume Building</h3>
+                <p>Our experts specialize in creating professional and impactful resumes that capture the attention of potential employers..</p>
+                <img src="image/resume.jpeg">
+            </div>
+            <div class="service">
+                <h3>Interview Preparation</h3>
+                <p>We offer mock interviews and personalized feedback to boost your confidence and help you excel in job interviews.</p>
+                <img src="image/inter.jpeg">
+            </div>
+            <div class="service">
+                <h3>Skill Development</h3>
+                <p>Our training programs encompass a broad spectrum of skills, from technical and soft skills to industry-specific knowledge..</p>
+                <img src="image/download.jpeg">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
